@@ -1,0 +1,258 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+.header {
+    height: 809px;
+    background-image: url(../images/banner/banner1.png);
+}
+
+.banner-text {
+    padding-top: 230px;
+    padding-bottom: 364px;
+    padding-left: 800px;
+    padding-right: 230px;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    color: #444343;
+}
+
+.primary-btn {
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+
+
+}
+
+
+.failure {
+    margin-left: 200px;
+    margin-right: 300px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.failure-container {
+    display: flex;
+    gap: 80px;
+}
+
+.failure-list {
+    padding-top: 320px;
+}
+
+.failure-title {
+    font-weight: 800;
+    font-size: 40px;
+    color: #151414;
+    ;
+}
+
+.failure-subtitle {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #444343;
+}
+
+.failure-description {
+    color: #444343;
+    margin-bottom: 14px;
+}
+
+.My-plan {
+    max-width: 1140px;
+    margin-left: 200px;
+    margin-right: 206px;
+    padding-top: 130px;
+    text-align: center;
+
+
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 130px;
+    justify-content: space-evenly;
+}
+
+
+.plan-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-subtitle {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+
+.My-plan .background {
+
+    background-blend-mode:
+
+        /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+}
+
+
+.img {
+
+    width: 1120px;
+    margin-left: 200px;
+    margin-right: 206px;
+    padding-bottom: 130px;
+    /* padding-top: 110px; */
+    height: 330px;
+
+}
+
+.background {
+    height: 300px;
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-image: url(../images/gradient1.png);
+
+}
+
+.img .background-title,
+.img-btn {
+    margin-left: 64px;
+}
+
+.img .background-title {
+    padding-top: 55px;
+    padding-bottom: 28px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-right: 600px;
+}
+
+.img .img-btn {
+    padding-bottom: 67px;
+    border-radius: 5px;
+    padding: 20px 35px;
+    background: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+/* footer style  */
+
+.future {
+    background: #151414;
+    height: 400px;
+    padding-bottom: 120px;
+    /* margin-left: 200px;
+    margin-right: 206px; 
+     */
+}
+
+.future-container {
+    display: flex;
+    gap: 320px;
+    margin-left: 200px;
+    margin-right: 206px;
+}
+
+.future-container a {
+    padding-left: 8px;
+}
+
+.future-container input {
+    margin-bottom: 25px;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 120px;
+    font-size: 18px;
+    /* font-weight: 600; */
+    background:#151414;
+    /* color:  #FFFFFF;; */
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    
+}
+::placeholder{
+    color:#FFFFFF;
+}
+
+ .future .future-item-two {
+    text-align: left;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-bottom: 16px;
+}
+
+.footer-subtitle {
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.info {
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.info-two {
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.item-two-title {
+    color: #FFFFFF;
+    padding-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+
+}
+  .footer-btn{
+    padding-bottom: 67px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    /* margin-right: 200px; */
+
+}
